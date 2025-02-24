@@ -1,6 +1,6 @@
 class ListManipulator:
-    def __init__(self, userList):
-        self.myList = userList
+    def __init__(self):
+        self.myList = []
         self.userNumber = None
 
     # Check Number
@@ -74,10 +74,9 @@ class ListManipulator:
 
 
 class ManipulatorMenu:
-    def __init__(self, userList):
-        self.myList = userList
+    def __init__(self):
         # Instance
-        self.myListManipulator = ListManipulator(self.myList)
+        self.myListManipulator = ListManipulator()
 
     def showMenu(self):
         menu = """
@@ -116,6 +115,5 @@ class ManipulatorMenu:
                     print("\nDigit a valid option!\n")
 
 
-myList = []
-myManipulator = ManipulatorMenu(myList)
+myManipulator = ManipulatorMenu()
 myManipulator.menu()
