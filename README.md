@@ -7,6 +7,6 @@
 - **Attributes**
 - **Methods**
 - **Encapsulation**
-- **_Public Methods_**
-- **_Protected Methods_**
-- **_Private Methods_**
+  - **Public Methods**
+  - **Protected Methods**
+  - **Private Methods**
