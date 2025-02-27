@@ -10,3 +10,4 @@
   - **Public Methods**
   - **Protected Methods**
   - **Private Methods**
+  - **Getter and Setter Methods**
