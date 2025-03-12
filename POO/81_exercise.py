@@ -85,7 +85,6 @@ class Menu:
         while True:
             self.__showMenu()
             userChoose = self.__checkNumber()
-
             match userChoose:
                 case 1:
                     self.myPet.setName()

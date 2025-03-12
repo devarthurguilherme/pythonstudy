@@ -11,3 +11,4 @@
   - **Protected Methods**
   - **Private Methods**
   - **Getter and Setter Methods**
+  - **decorator "property**
